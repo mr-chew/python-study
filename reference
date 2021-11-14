@@ -1,5 +1,14 @@
 https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/
+https://www.cloudbees.com/blog/git-pull-how-it-works-with-detailed-examples
 
 clone repo
 git clone git@github.com:mr-chew/python-study.git
 
+git add filename
+git commit -m "commit msg"
+
+git push
+
+git pull
+
+git status
