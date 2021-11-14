@@ -50,3 +50,10 @@ print(Egg[1])
 Spam.append(22)
 print(Spam)
 
+#Dictionary
+print("\n#Dictionary#")
+_dict = {
+    'a': 'Down by the bay',
+    'b': 'where the watermelon grows'
+}
+
