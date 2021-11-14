@@ -1,0 +1,5 @@
+https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/
+
+clone repo
+git clone git@github.com:mr-chew/python-study.git
+
