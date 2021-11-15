@@ -67,3 +67,10 @@ print(_dict.get('c'))
 
 #print all content of _dict
 print(_dict.items())
+
+#add items to dicitionary
+_dict['c']= 'back to my home'
+print(_dict['c'])
+
+#Tuples
+print("\n#Tupples")
