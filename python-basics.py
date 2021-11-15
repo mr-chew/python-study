@@ -56,4 +56,14 @@ _dict = {
     'a': 'Down by the bay',
     'b': 'where the watermelon grows'
 }
+#print down by the bay
+print(_dict['a'])
 
+#print where the wwatermelon grows
+print(_dict.get('b'))
+
+#print none
+print(_dict.get('c'))
+
+#print all content of _dict
+print(_dict.items())
