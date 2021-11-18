@@ -105,3 +105,45 @@ spam.remove('c')
 spam.remove('e')
 print(spam)
 
+#Looping 
+#while loop
+print('\n#While loop#')
+spam = 0
+while spam < 10:
+    print(spam)
+    spam += 1
+
+#for loop
+#Python automatically stores the value of the last expression in the interpreter to a particular variable called "_"
+print('\n#For loop#')
+spam = 0
+for _ in range(10): 
+    print(spam)
+    spam +=1
+    
+#Conditional    
+#if -else
+
+spam = 6
+
+print('\n#If else#')
+if spam == 5:
+    print(spam)
+else:
+    print('spam is not equal to 5')
+    
+#if -elif - else
+
+print('\n#if -elif - else#')
+if spam < 5:
+    print(spam)
+elif spam > 5:
+    print('spam is greater than 5')
+else:
+    print('spam is equal to 5')
+    
+#if
+print('\n#If#')
+if spam == 5:
+    print(spam)
+
