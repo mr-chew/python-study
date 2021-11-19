@@ -25,8 +25,29 @@ def fibonacci(n):
         return n
     return fibonacci(n-1) + fibonacci(n-2)
 
-numseq=11
+numseq=10
 #print(fibonacci(numseq-1))
 
 for i in range(numseq):
     print(str(i+1) +') '+ str(fibonacci(i)))
+    
+#Classes
+print('\n#Classes#')
+
+#optional to specify class as an object
+class Student(object):
+  
+  class_variable = "example"
+  def __init__(self, name):
+    self.name = name
+    self.grade = None
+    
+  def set_grade(self, grade):
+    self.grade = grade
+# create a new student with the name Alice
+s1 = Student("Alice")
+#set grade to A
+s1.set_grade("A")
+
+#print student name and the grade
+print(s1.name + " | " + s1.grade)
