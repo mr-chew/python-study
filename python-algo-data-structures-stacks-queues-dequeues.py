@@ -26,3 +26,6 @@ def size():
 def empty():
     return True if size() == 0 else False
 
+print(f'Let\'s see how a stack work')
+stack = ['spam', 'eggs', 'ham', 'sausage', 'beans']
+print(f'our current stack is {stack}')
