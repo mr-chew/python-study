@@ -93,3 +93,4 @@ print(f"Now the data of node1 is {node1.get_data()}")
 print(f"Now the size of the linked list is {ll.size}")
 print(f"If we search for Ccc111, we should see that it is not in the list: {ll.search('Ccc111')}")
 print(f"We should now get a response for searching for Ccc: {ll.search('Ccc')}")
+
