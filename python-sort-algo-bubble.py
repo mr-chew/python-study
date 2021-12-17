@@ -15,3 +15,5 @@ print(f"initial list is {rndlist} \n")
 bubble_sort(rndlist)
 print(f"final sorted list is {rndlist}")
 
+# random data for input
+# 89	61	35	78	17
